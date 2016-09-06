@@ -10,7 +10,7 @@ This guide will show you how run the demo. This demo permits you to try immediat
 Run the Demo
 ------------
 
-1. Solder a 9x2 female connector to the flexIO camera pins, be careful to solder it on the back of the board such as this:
+1. If necessary solder a 9x2 female connector to the flexIO camera pins, be careful to solder it on the back of the board such as this:
 
 .. image:: _static/strip.jpg
 
@@ -36,9 +36,5 @@ Run the Demo
 
 .. image:: _static/board_k82f_guide2.jpg
 
-7. The board will enumerate as a generic USB video device called **Flexio Camera Device**. You can then use this device with any video capture software such as `Debut Video Capture Software <http://www.nchsoftware.com/capture/index.html>`_. Download and install it. Launch it and select the webcam icon.
-
-.. image:: _static/webcam_icon.jpg
-
-You will see the frames transmitted from the **Flexio Camera Device**.
+7. The board will enumerate as a generic USB video device called **Flexio Camera Device**. You can then use this device with any video capture software such as "camera" from Windows 10 or `AMCap <http://noeld.com/programs.asp?cat=video>`_. Download and install it if you don't have camera application on your O.S. Launch it and select the **Flexio Camera Device** device. You will see the frames transmitted at a resolution **QQVGA** of **160x120** pixels.
 

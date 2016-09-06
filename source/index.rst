@@ -1,16 +1,16 @@
 .. K82F-TD7740 documentation master file
 
-Welcome to K82F-TD7740 documentation
-====================================
+Welcome to Embedded Vision NXP documentation
+============================================
 
 
 :Version: 1.00A
 :Copyright: (C)2016 Avnet Silica company
-:Date: 2 Sep 2016
-:Reference name: FRDM-K82F & TD7740
+:Date: 6 Sep 2016
+:Reference name: EV-NXPKINCAM-DVK
 
-NXP FRDM-K82F EVALUATION BOARD QUICK START GUIDE FOR TD7740 CAMERA MODULE & TDNx016 ADAPTER BOARD
--------------------------------------------------------------------------------------------------
+Embedded Vision NXP
+-------------------
 
 .. image:: _static/logo_silica_nxp.jpg
 
