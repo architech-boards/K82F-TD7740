@@ -5,7 +5,7 @@
 Quick Start Guide
 =================
 
-This guide will show you how run the demo. This demo permits you to try immediatly the **TD7740** camera. This guide is written using **Windows** Operating System.
+This guide will show you how run the demo. This demo permits you to try immediately the **TD7740** camera. This guide is written using **Windows** Operating System.
 
 Run the Demo
 ------------
@@ -14,7 +14,7 @@ Run the Demo
 
 .. image:: _static/strip.jpg
 
-2. Install OpenSDA for the Freescale k82f board More information can be found at `segger website <https://www.segger.com/downloads/jlink>`_. Click on **J-Link OpenSDA - Board-Specific Firmwares** and download the firmware for the **FRDM-K82F**.
+2. Install OpenSDA for the NXP K82F board More information can be found at `segger website <https://www.segger.com/downloads/jlink>`_. Click on **J-Link OpenSDA - Board-Specific Firmwares** and download the firmware for the **FRDM-K82F**.
 
 .. image:: _static/download-OpenSDA.jpg
 

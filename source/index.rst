@@ -69,12 +69,6 @@ NXP releases Kinetis® Design Studio including support for FRDM-K82F. The Kineti
   - Command Line (CL) debugging with GDB and OpenOCD TCL
 
 
-Document references
-*******************
-
-The board reference documentation is available on the `???????? <http://www.nxp.com/products/microcontrollers-and-processors/power-architecture-processors/qoriq-processors-power-architecture-t-series/qoriq-t1040-reference-design-board:T1040RDB?fpsp=1&tab=Documentation_Tab>`_ website. 
-
-
 Contents:
 
 .. toctree::
