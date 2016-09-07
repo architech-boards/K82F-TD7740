@@ -16,7 +16,7 @@ Embedded Vision NXP
 
 .. image:: _static/board.jpg
 
-*FRDM-K82F with TD7740 camera module*
+*FRDM-K82F with TDNx016 board mounting a TD7740 camera module*
 
 .. index:: index
 
