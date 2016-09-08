@@ -62,7 +62,13 @@ Build the Project
 
 .. image:: _static/kds_workspace.jpg
 
-2. Unzip the **SDK_2.0_FRDM-K82F.zip** file into the workspace. Download the sources of the **DEMO_usb_device_video_flexio_ov7740** demo <????????> and unzip it in the folder **${PATH_TO_YOUR_SDK_INSTALL}\SDK_2.0_FRDM-K82F\boards\frdmk82f\demo_apps**.
+2. Follow next steps: 
+
+a. Unzip the **SDK_2.0_FRDM-K82F.zip** file into the workspace creating a new folder named **SDK_2.0_FRDM-K82F**. 
+
+b. Download the sources of the **DEMO_usb_device_video_flexio_ov7740** demo <????????>
+
+c. unzip it in the folder **UNIT:\\[YOUR PATH TO]\\workspace\\SDK_2.0_FRDM-K82F\\boards\\frdmk82f\\demo_apps**.
 
 3. From the **Kinetis Design Studio** select **File -> import**. Then choose **General -> Existing Projects into Workspace**
 
