@@ -7,10 +7,19 @@ Quick Start Guide
 
 This guide will show you how run the demo. This demo permits you to try immediately the **TD7740** camera. This guide is written using **Windows** Operating System.
 
+Hardware necessary
+------------------
+
+- TDNx016 Board
+- TD7740 camera
+- FRDM-K82F board
+- 1 micro-USB cable
+- PC with Windows
+
 Run the Demo
 ------------
 
-1. If necessary solder a 9x2 female connector to the flexIO camera pins, be careful to solder it on the back of the board such as this:
+1. This demo is provided with a **9x2 female connector** already soldered. This will be used to connect the board to the TDNx016 board:
 
 .. image:: _static/strip.jpg
 
@@ -28,11 +37,11 @@ Run the Demo
 
   You can build this demo firmware by yourself. Please follow the instructions in the :ref:`develop` section.
 
-5. Plug the TD7740 camera to the TDx016 adapter board and Connect the board to the FRDM-K82F board.
+5. Plug the **TD7740** camera to the **TDx016 adapter** board and Connect the board to the **FRDM-K82F** board.
 
 .. image:: _static/board.jpg
 
-6. Plug in the micro USB cable in the USB device port (the one in the middle of the card).
+6. Plug in the **micro USB** cable in the USB device port (the one in the middle of the card).
 
 .. image:: _static/board_k82f_guide2.jpg
 

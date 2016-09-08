@@ -2,7 +2,7 @@
 
 .. _develop:
 
-Developing guide
+Developing Guide
 ================
 
 This guide will provide instructions to install the development environment needed to compile and debug the demo firmware for the FRDM-K82L. The development system is multiplatform, it supports Windows and Linux. This guide is written using Windows.
@@ -31,13 +31,9 @@ Agree the terms and download the file **Installer: Kinetis Design Studio 3.2.0 I
 
 Next, run the downloaded file **kinetis-design-studio_3.2.0.exe** following all the default options.
 
-2. Now we have to download and extract the KSDK 2.0 for the **FRDM-K82F** board. We will build the SDK from `nxp website <http://kex.nxp.com>`_. Click on **Build SDK**. You have to register in order to use this feature.
+2. Now we have to download and extract the KSDK 2.0 for the **FRDM-K82F** board. We will build the SDK through this website: `nxp website <http://kex.nxp.com>`_. Click on **Build SDK**. You have to register in order to use this feature.
 
 .. image:: _static/1-BuildSDK.jpg
-
-Then click on **new configuration**
-
-.. image:: _static/2-NewConfiguration.jpg
 
 Will appear a list of boards, select the **FRDM-K82F**
 
@@ -64,28 +60,54 @@ Build the Project
 
 2. Follow next steps: 
 
-a. Unzip the **SDK_2.0_FRDM-K82F.zip** file into the workspace creating a new folder named **SDK_2.0_FRDM-K82F**. 
+    a. Unzip the **SDK_2.0_FRDM-K82F.zip** file into the workspace creating a new folder named **SDK_2.0_FRDM-K82F**. 
 
-b. Download the sources of the **DEMO_usb_device_video_flexio_ov7740** demo <????????>
+    b. Download the sources of the **DEMO_usb_device_video_flexio_ov7740** clicking `here <_static/DEMO_usb_device_video_flexio_ov7740.zip>`_
 
-c. unzip it in the folder **UNIT:\\[YOUR PATH TO]\\workspace\\SDK_2.0_FRDM-K82F\\boards\\frdmk82f\\demo_apps**.
+    c. unzip it in the folder **UNIT:\\[YOUR PATH TO]\\workspace\\SDK_2.0_FRDM-K82F\\boards\\frdmk82f\\demo_apps**.
 
-3. From the **Kinetis Design Studio** select **File -> import**. Then choose **General -> Existing Projects into Workspace**
+3. From the **Kinetis Design Studio** select **File -> import**. 
+Then choose **General -> Existing Projects into Workspace**
 
-.. image:: _static/kds_archive.jpg
+    .. image:: _static/kds_archive.jpg
 
-4. In Select root directory, click on Browse and select the path: **${PATH_TO_YOUR_SDK_INSTALL}\SDK_2.0_FRDM-K82F\boards\frdmk82f\demo_apps\DEMO_usb_device_video_flexio_ov7740**. The project should be automatically detected and selected. Click on **Finish**.
+    a. In **Select root directory**, click on **Browse** and select the path: 
 
-.. image:: _static/import_project.jpg
+    ::
 
-5. Before to build it's necessary setup the configuration of the project to create the **hex** file to upload in the board. Click on **Project -> Properties**.
+        UNIT:\\[YOUR PATH TO]\\SDK_2.0_FRDM-K82F\\boards\\frdmk82f\\demo_apps\\DEMO_usb_device_video_flexio_ov7740
 
-.. image:: _static/configuration1.jpg
-.. image:: _static/configuration2.jpg
+    The project should be automatically detected and selected. 
 
+    b. Click on **Finish**.
 
-Build the project, then select **Project -> Build All**. 
-In **${PATH_TO_YOUR_SDK_INSTALL}\SDK_2.0_FRDM-K82F\boards\frdmk82f\demo_apps\DEMO_usb_device_video_flexio_ov7740\bm\kds\debug** folder you will find your hex file: **dev_video_flexio_ov7740_bm_frdmk82f.hex**.
+    .. image:: _static/import_project.jpg
+
+5. Before to build it's necessary setup the configuration of the project to create the **hex** file to upload in the board. 
+
+    a. Click on **Project -> Properties** 
+
+    b. select **C/C++ Build -> Settings** 
+
+    c. click on the **Toolchains** tab, then check the options **Create flash image** and **Print size**.
+
+    .. image:: _static/configuration1.jpg
+
+    d. After select the **Tool Settings** tab
+
+    e. click on **Cross ARM GNU Create Flash Image -> General**
+
+    f. choose as **Output file format** the **Intel HEX** option.
+
+    .. image:: _static/configuration2.jpg
+
+    g. Apply the modifies clicking on **Ok** button
+
+    h. build the project selecting **Project -> Build All**.
+
+6. In **UNIT:\\[YOUR PATH TO]\\SDK_2.0_FRDM-K82F\\boards\\frdmk82f\\demo_apps\\DEMO_usb_device_video_flexio_ov7740\\bm\\kds\\debug** folder you will find your hex file: **dev_video_flexio_ov7740_bm_frdmk82f.hex**.
 
 .. image:: _static/hex.jpg
+
+7. The **dev_video_flexio_ov7740_bm_frdmk82f.hex** file is the firmware demo uploadable in the FRDM-K82F, it is used in :ref:`quick`
 
