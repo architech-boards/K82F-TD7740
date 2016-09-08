@@ -91,19 +91,23 @@ Then choose **General -> Existing Projects into Workspace**
 
     c. click on the **Toolchains** tab, then check the options **Create flash image** and **Print size**.
 
+    d. click on **Apply**
+
     .. image:: _static/configuration1.jpg
 
-    d. After select the **Tool Settings** tab
+    e. After select the **Tool Settings** tab
 
-    e. click on **Cross ARM GNU Create Flash Image -> General**
+    f. click on **Cross ARM GNU Create Flash Image -> General**
 
-    f. choose as **Output file format** the **Intel HEX** option.
+    g. choose as **Output file format** the **Intel HEX** option.
 
     .. image:: _static/configuration2.jpg
+    
+    h. click on **Apply**
 
-    g. Apply the modifies clicking on **Ok** button
+    i. Apply the modifies clicking on **Ok** button
 
-    h. build the project selecting **Project -> Build All**.
+    j. build the project selecting **Project -> Build All**.
 
 6. In **UNIT:\\[YOUR PATH TO]\\SDK_2.0_FRDM-K82F\\boards\\frdmk82f\\demo_apps\\DEMO_usb_device_video_flexio_ov7740\\bm\\kds\\debug** folder you will find your hex file: **dev_video_flexio_ov7740_bm_frdmk82f.hex**.
 
