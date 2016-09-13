@@ -16,8 +16,27 @@ Hardware necessary
 - 1 micro-USB cable
 - PC with Windows
 
-Run the Demo
-------------
+The Demo
+--------
+
+The demo is already programmed on the FRDM-K82F board. You have only to connect the boards in order to use the demo. Please follow the next steps:
+
+1. Plug the **TD7740** camera to the **TDx016 adapter** board and Connect the board to the **FRDM-K82F** board.
+
+.. image:: _static/board.jpg
+
+2. Plug in the **micro USB** cable in the USB device port (the one in the middle of the card).
+
+.. image:: _static/board_k82f_guide2.jpg
+
+3. The board will enumerate as a generic USB video device called **Flexio Camera Device**. You can then use this device with any video capture software such as "camera" from Windows 10 or `AMCap <http://noeld.com/programs.asp?cat=video>`_. Download and install it if you don't have camera application on your O.S. Launch it and select the **Flexio Camera Device** device. You will see the frames transmitted at a resolution **QQVGA** of **160x120** pixels.
+
+
+
+Update the Demo
+---------------
+
+If you need upload the demo in the FRDM-K82F board please follow the next steps:
 
 1. This demo is provided with a **9x2 female connector** already soldered. This will be used to connect the board to the TDNx016 board:
 
