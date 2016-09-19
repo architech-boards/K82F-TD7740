@@ -47,7 +47,7 @@ From the **Software Vault** link you will see the message **Pending download app
 
 .. image:: _static/5-SoftwareVault.jpg
 
-After the approval phase you will can download the SDK built. Accept the terms and download the **SDK_2.0_FRDM-K82F.zip** file.
+After the approval phase you will can download the SDK built. Accept the terms and download the **evNXPv01.zip** file.
 
 .. image:: _static/6-Download_now.jpg
 
@@ -60,7 +60,7 @@ Build the Project
 
 2. Follow next steps: 
 
-    a. Unzip the **SDK_2.0_FRDM-K82F.zip** file into the workspace creating a new folder named **SDK_2.0_FRDM-K82F**. 
+    a. Unzip the **evNXPv01.zip** file into the workspace creating a new folder named **SDK_2.0_FRDM-K82F**. 
 
     b. Download the sources of the **DEMO_usb_device_video_flexio_ov7740** clicking `here <_static/DEMO_usb_device_video_flexio_ov7740.zip>`_
 
