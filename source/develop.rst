@@ -62,7 +62,7 @@ Build the Project
 
     a. Unzip the **evNXPv01.zip** file into the workspace creating a new folder named **SDK_2.0_FRDM-K82F**. 
 
-    b. Download the sources of the **DEMO_usb_device_video_flexio_ov7740** clicking `here <_static/404>`_
+    b. Download the sources of the **DEMO_usb_device_video_flexio_ov7740** going `here <http://registration.silica.eu/other/embedded-vision-software-update-nxp.html>`_
 
     c. unzip it in the folder **UNIT:\\[YOUR PATH TO]\\workspace\\SDK_2.0_FRDM-K82F\\boards\\frdmk82f\\demo_apps**.
 
