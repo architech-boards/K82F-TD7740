@@ -4,9 +4,9 @@ Welcome to Embedded Vision NXP documentation
 ============================================
 
 
-:Version: 1.00B
+:Version: 1.00C
 :Copyright: (C)2016 Avnet Silica company
-:Date: 26 Sep 2016
+:Date: 27 Sep 2016
 :Reference name: EV-NXPKINCAM-DVK
 
 Embedded Vision NXP
