@@ -18,6 +18,10 @@ Embedded Vision NXP
 
 *FRDM-K82F with TDNx016 board mounting a TD7740 camera module*
 
+.. note::
+
+  The color of the adapter board in the kit can be different than the color on the images in the Quick Start Guide and Developing Guide. However this does not affect the functionality of the board
+
 .. index:: index
 
 **INTRODUCTION**
