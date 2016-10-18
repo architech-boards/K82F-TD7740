@@ -20,7 +20,7 @@ Embedded Vision NXP
 
 .. note::
 
-  **Visit** `www.avnet-silica.com/embedded-vision <www.avnet-silica.com/embedded-vision>`_ **to buy this development kit**
+  **Visit** `www.avnet-silica.com/embedded-vision <http://www.avnet-silica.com/embedded-vision>`_ **to buy this development kit**
 
 .. warning::
 
