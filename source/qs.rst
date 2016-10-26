@@ -50,7 +50,7 @@ If you need upload the demo in the FRDM-K82F board please follow the next steps:
 
 .. image:: _static/board_k82f_guide.jpg
 
-4. Download the demo firmware from `Avnet Silica website <http://registration.silica.eu/other/embedded-vision-software-update-nxp.html>`_ and Drag'n drop or copy and paste the OpenSDA Application binary file into the **MBED** drive from your computer file explorer. After 10 seconds Un-plug and re-plug the USB cable from the SDA USB port **without** keeping reset button pressed.
+4. Download the demo firmware from `Avnet Silica website <http://registration.silica.eu/other/embedded-vision-software-update-nxp.html>`_ and Drag'n drop or copy and paste the firmware into the **MBED** drive from your computer file explorer. After 10 seconds Un-plug and re-plug the USB cable from the SDA USB port **without** keeping reset button pressed.
 
 .. note::
 
