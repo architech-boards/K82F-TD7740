@@ -62,7 +62,7 @@ Build the Project
 
     a. Unzip the **evNXPv01.zip** file into the workspace creating a new folder named **SDK_2.0_FRDM-K82F**. 
 
-    b. Download the sources of the **DEMO_usb_device_video_flexio_ov7740** going `here <http://registration.silica.eu/other/embedded-vision-software-update-nxp.html>`_
+    b. Download the sources of the **DEMO_usb_device_video_flexio_ov7740** going `here <https://www.avnet.com/wps/portal/silica/products/product-highlights/2016/ev-nxp-kinetis-camera-development-kit/software-guide-download/>`_
 
     c. unzip it in the folder **UNIT:\\[YOUR PATH TO]\\workspace\\SDK_2.0_FRDM-K82F\\boards\\frdmk82f\\demo_apps**.
 
@@ -83,7 +83,7 @@ Then choose **General -> Existing Projects into Workspace**
 
     .. image:: _static/import_project.jpg
 
-5. Before to build it's necessary setup the configuration of the project to create the **hex** file to upload in the board. 
+4. Before to build it's necessary setup the configuration of the project to create the **hex** file to upload in the board. 
 
     a. Click on **Project -> Properties** 
 
@@ -109,9 +109,9 @@ Then choose **General -> Existing Projects into Workspace**
 
     j. build the project selecting **Project -> Build All**.
 
-6. In **UNIT:\\[YOUR PATH TO]\\SDK_2.0_FRDM-K82F\\boards\\frdmk82f\\demo_apps\\DEMO_usb_device_video_flexio_ov7740\\bm\\kds\\debug** folder you will find your hex file: **dev_video_flexio_ov7740_bm_frdmk82f.hex**.
+5. In **UNIT:\\[YOUR PATH TO]\\SDK_2.0_FRDM-K82F\\boards\\frdmk82f\\demo_apps\\DEMO_usb_device_video_flexio_ov7740\\bm\\kds\\debug** folder you will find your hex file: **dev_video_flexio_ov7740_bm_frdmk82f.hex**.
 
 .. image:: _static/hex.jpg
 
-7. The **dev_video_flexio_ov7740_bm_frdmk82f.hex** file is the firmware demo uploadable in the FRDM-K82F, it is used in :ref:`quick`
+6. The **dev_video_flexio_ov7740_bm_frdmk82f.hex** file is the firmware demo uploadable in the FRDM-K82F, it is used in :ref:`quick`
 
